@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;
+}
+.back
+{
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url('../img/hs.jpg');
+
+    background-size: cover;
+    padding-bottom: 55px;
+}
+body
+{
+    font-weight: 600;
+}
+nav
+{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    color: white;
+}
+.back ul
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.back li
+{
+    margin-left: 30px;
+}
+.logo
+{
+    font-size: 21px;
+    position: absolute;
+    left: 80px;
+}
+.btn-logout
+{
+    position: absolute;
+    right: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.org
+{
+    color:orange;
+}
+
+.container
+{
+    margin: 180px 80px 0px;
+    width: 32%;
+    color: white;
+    
+}
+.container h1
+{
+    margin-top: 20px;
+}
+.text
+{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.m-button
+{
+    margin-top: 50px;
+}
+
+.m-button button
+{
+    padding:8px 20px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight:600;
+    margin-right: 20px;
+    cursor:pointer;
+
+}
+#book
+{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+h4
+{
+    display: flex;
+    justify-content: center;
+}
+.about h4
+{
+    margin: 50px 0px;
+}
+.content
+{
+    display: flex;
+    padding: 0px 7%;
+}
+
+.content img
+{
+    border: 12px solid white;
+    border-radius: 50px;
+
+}
+
+.hotel-image
+{
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 50px;
+}
+.hotel-card
+{
+    margin: 15px 0px 0px 65px;
+}
+.sec-child .hotel-card
+{
+    margin: 15px 65px 0px 0px;
+}
+
+.c1
+{
+    margin-top: 15px;
+}
+.c2
+{
+    margin-top: 15px;
+    color: grey;
+}
+.hotel-card button
+{
+    margin-top: 15px;
+    padding:6px 15px;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: 600;
+}
+
+.inner
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 100px 0px 0px;
+    padding: 20px 128px;    
+    background-color: orange;
+}
+.banner .main
+{
+    font-size: 28px;
+}
+.banner .inner-text
+{
+    font-size: 12;
+    margin-top: -30px;
+}
+.inner span
+{
+    color: white;
+}
+.rooms
+{
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 60px;
+}
+.rooms h2
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 40px;
+}
+.roomc
+{
+    background-color: white;
+}
+
+.roomc img
+{
+    width: 330px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.room-cards
+{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.room-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+.room-content .price
+{
+    margin: -20px 0px 15px;
+    color: rgb(155, 155, 155);
+}
+.rtext
+{
+    padding-top: 90px;
+}
+.services h2
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.scard
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 50px 40px;
+    border: 1px solid rgb(211, 211, 211);
+}
+.scard .stext
+{
+    color: rgb(158, 158, 158);
+}
+.all-cards
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.tcards
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.testinomial h2
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px;
+}
+.tcard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 230px;
+}
+.innerc
+{
+    text-align: center;
+    color: rgb(118, 118, 118);
+    font-size: 14px;
+}
+.tsmall
+{
+    color: grey;
+    font-size: 14px;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    margin: 150px 80px 60px;
+}
+.fsection
+{
+    width: 300px;
+}
+
+.fsection p
+{
+    color: grey;
+}
+.asection
+{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 10px;
+}
+
+.asection li
+{
+    list-style: none;
+    margin-top: 10px;
+    color: grey;
+}
+.lg
+{
+    font-size: 22px;
+}
+
+/* Responsive Media Queries */
+
+/* Tablet Landscape (1024px and below) */
+@media screen and (max-width: 1024px) {
+    .logo {
+        left: 40px;
+    }
+    
+    .btn-logout {
+        right: 40px;
+    }
+    
+    .container {
+        margin: 120px 40px 0px;
+        width: 50%;
+    }
+    
+    .banner {
+        padding: 20px 60px;
+        margin: 80px 0px 0px;
+    }
+    
+    .tcards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    footer {
+        margin: 100px 40px 40px;
+        gap: 40px;
+    }
+}
+
+/* Tablet Portrait (768px and below) */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .logo {
+        position: static;
+    }
+    
+    .btn-logout {
+        position: static;
+    }
+    
+    .back ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .back li {
+        margin: 5px 15px;
+    }
+    
+    .container {
+        width: 70%;
+        margin: 80px 40px 0px;
+    }
+    
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 5%;
+    }
+    
+    .content img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .hotel-card {
+        margin: 30px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .sec-child .hotel-card {
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .sec-child .content {
+        flex-direction: column-reverse;
+    }
+    
+    .banner {
+        flex-wrap: wrap;
+        padding: 20px 40px;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .room-cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .roomc img {
+        width: 100%;
+        max-width: 330px;
+    }
+    
+    .all-cards {
+        padding: 0px 20px;
+    }
+    
+    .scard {
+        width: calc(50% - 40px);
+        min-width: 200px;
+    }
+    
+    .tcards {
+        gap: 20px;
+        padding: 0px 20px;
+    }
+    
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 80px 40px 40px;
+    }
+    
+    .fsection {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .asection {
+        width: 45%;
+    }
+}
+
+/* Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+    .back {
+        padding-bottom: 30px;
+    }
+    
+    nav {
+        padding: 15px;
+    }
+    
+    .back li {
+        margin: 5px 10px;
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 85%;
+        margin: 60px 20px 0px;
+    }
+    
+    .container h1 {
+        font-size: 24px;
+    }
+    
+    .text {
+        font-size: 13px;
+    }
+    
+    .m-button {
+        margin-top: 30px;
+    }
+    
+    .m-button button {
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .content {
+        padding: 0px 20px;
+    }
+    
+    .content img {
+        border: 8px solid white;
+        border-radius: 30px;
+    }
+    
+    .hotel-card h2 {
+        font-size: 20px;
+    }
+    
+    .c1, .c2 {
+        font-size: 14px;
+    }
+    
+    .banner {
+        padding: 20px 20px;
+        margin: 60px 0px 0px;
+    }
+    
+    .banner .main {
+        font-size: 24px;
+    }
+    
+    .banner .inner-text {
+        font-size: 11px;
+    }
+    
+    .rooms h2, .services h2, .testinomial h2 {
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+    
+    .rtext {
+        padding-top: 60px;
+    }
+    
+    .room-cards {
+        padding: 0px 20px;
+    }
+    
+    .roomc {
+        width: 100%;
+    }
+    
+    .roomc img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .all-cards {
+        gap: 20px;
+    }
+    
+    .scard {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    
+    .tcards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tcard {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    footer {
+        flex-direction: column;
+        margin: 60px 20px 30px;
+        gap: 30px;
+    }
+    
+    .asection {
+        width: 100%;
+    }
+    
+    .lg {
+        font-size: 20px;
+    }
+}
+
+/* Extra Small Mobile (360px and below) */
+@media screen and (max-width: 360px) {
+    .container h1 {
+        font-size: 20px;
+    }
+    
+    .back li {
+        font-size: 12px;
+        margin: 3px 8px;
+    }
+    
+    .m-button button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    .banner .main {
+        font-size: 20px;
+    }
+    
+    .scard {
+        padding: 25px 15px;
+    }
+}
