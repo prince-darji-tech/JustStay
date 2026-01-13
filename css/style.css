@@ -14,6 +14,7 @@
 
     background-size: cover;
     padding-bottom: 55px;
+    width: 100%;
 }
 body
 {
@@ -22,30 +23,23 @@ body
 nav
 {
     display: flex;
-    padding: 25px;
-    justify-content: center;
+    padding: 25px 80px;
+    gap: 20px;
+    justify-content: space-between;
     color: white;
 }
 .back ul
 {
     display: flex;
+    gap: 25px;
     list-style: none;
-    margin: 0;
-}
-.back li
-{
-    margin-left: 30px;
 }
 .logo
 {
     font-size: 21px;
-    position: absolute;
-    left: 80px;
 }
 .btn-logout
 {
-    position: absolute;
-    right: 80px;
     text-decoration: none;
     color: white;
 }
@@ -58,7 +52,7 @@ nav
 .container
 {
     margin: 180px 80px 0px;
-    width: 32%;
+    width: 410px;
     color: white;
     
 }
@@ -101,31 +95,32 @@ h4
 }
 .about h4
 {
-    margin: 50px 0px;
+    margin: 50px 0px 20px;
 }
 .content
 {
     display: flex;
-    padding: 0px 7%;
+    justify-content: center;
+    gap: 50px;
 }
 
 .content img
 {
     border: 12px solid white;
-    border-radius: 50px;
+    border-radius: 60px;
 
 }
 
 .hotel-image
 {
+    display: flex;
     border: 1px solid rgb(192, 192, 192);
     border-radius: 50px;
-    width: 492px;
-    height: 328px;
 }
 .hotel-card
 {
-    margin: 15px 0px 0px 65px;
+    margin: 15px 0px;
+    max-width: 500px;
 }
 .sec-child .hotel-card
 {
@@ -340,4 +335,28 @@ a:link
 a:visited
 {
     color: white;
+}
+
+@media screen and (max-width: 768px)
+{
+    nav
+    {
+        flex-wrap: wrap;
+    }
+    .content
+    {
+        flex-wrap: wrap;
+    }
+    .room-cards
+    {
+        flex-wrap: wrap;
+    }
+    .tcards
+    {
+        flex-wrap: wrap;
+    }
+    footer
+    {
+        flex-wrap: wrap;
+    }
 }
